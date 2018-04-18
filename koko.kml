@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Peta tanpa judul</name>
+    <description/>
+    <Style id="poly-000000-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Lapisan tanpa judul</name>
+      <Placemark>
+        <name>ku1</name>
+        <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                107.6307446,-6.97424,0
+                107.6306534,-6.9742347,0
+                107.630648,-6.9750494,0
+                107.6310128,-6.975044,0
+                107.6310074,-6.9750014,0
+                107.6310557,-6.9749855,0
+                107.6310718,-6.9750707,0
+                107.6313937,-6.9750973,0
+                107.6314044,-6.9749375,0
+                107.6311845,-6.9749642,0
+                107.6311952,-6.974863,0
+                107.6314044,-6.9748843,0
+                107.6314044,-6.9747192,0
+                107.6310718,-6.9747299,0
+                107.6310664,-6.9745755,0
+                107.6314044,-6.9745701,0
+                107.6314205,-6.9744477,0
+                107.6311898,-6.9744583,0
+                107.6311898,-6.9743678,0
+                107.6314098,-6.9743678,0
+                107.6314098,-6.97424,0
+                107.6310772,-6.974224,0
+                107.6310718,-6.9743625,0
+                107.630986,-6.9743571,0
+                107.6309913,-6.9742453,0
+                107.6307446,-6.97424,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
